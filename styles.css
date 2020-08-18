@@ -1,0 +1,165 @@
+body{
+    background-color: #fbd46d;
+    margin: 0;
+}
+
+nav{
+    background-color: #f4f6ff;
+    padding: 0;
+}
+
+.head-txt{
+    font-family: 'Pangolin', cursive;
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    margin-top: 12px;
+}
+
+ul{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: #4f8a8b;
+    font-size: 1.1rem;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+a.active{
+    background-color: #dfe0e93f;
+    text-shadow: 2px 2px #fbd56d50;
+    border-radius: 18%;
+}
+
+a:hover{
+    background-color: #dfe0e93f;
+    text-shadow: 2px 2px #fbd56d50;
+    border-radius: 18%;
+} 
+
+.top-container{
+    text-align: center;
+
+}
+
+.play-txt{
+    font-family: 'Pangolin', cursive;
+    font-size: 4rem;
+    color:#07031a;
+    margin: 20px 0 5px 0;
+}
+
+.question-txt{
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 5px;
+    color: #c5454e;
+}
+
+.game-images{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.game-item{
+    margin-top: 30px;
+    
+}
+
+.the-img:hover{
+    cursor: pointer;
+}
+
+.backdrop{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 100;
+    display: none;
+}
+
+.backdrop.visible{
+    display: block;
+}
+
+.scoreboard{
+    margin:auto;
+    z-index: 100;
+    width: 60%;
+    height: 60%;
+    position: fixed;
+    background:#f4f6ff;
+    top:10vh;
+    bottom: 10vh;
+    left:5%;  
+    right: 10%; 
+    display: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.scoreboard.visible{
+    display: block;
+}
+
+.draw-img{
+    margin-top: 50px;
+    width: 60%;
+    height: 60%;
+}
+
+.winner-msg{
+    margin-top: 15px;
+    font-family: 'Pangolin', cursive;
+}
+
+.bottom-container{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    color: #4f8a8b;
+}
+
+.copyright{
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+.contact-info{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.insta-txt, .email-txt{
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px;
+}
+
+.email-container{
+    margin-right: 30px;
+    padding-bottom: 40px;
+}
+
+.about-info{
+    margin: 10px;
+}
+
+.about-header{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 25px;
+}
